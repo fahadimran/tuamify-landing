@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Switzer", sans-serif;
+  }
+}
+
+:root {
+  --primary-color: #e3572d;
+  --primary-color-light: #ffcebf;
+  --purple-color: #7e00b4;
+  --purple-color-light: #e8b1ff;
+  --bg-dark-color: #1f1f1f;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.nav-brand {
+  width: 100%;
+  max-width: 100px;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-primary-light {
+  background-color: var(--primary-color-light);
+}
+
+.bg-purple-light {
+  background-color: var(--purple-color-light);
+}
+
+.bg-secondary {
+  background-color: var(--bg-dark-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-purple {
+  color: var(--purple-color);
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 550px;
+}
+
+.hero-text {
+  width: 100%;
+  max-width: 480px;
+}
+
+.our-values-svg {
+  width: 100%;
+  max-width: 150px;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 400px;
+}
+
+.brand-logo {
+  width: 100%;
+  max-width: 150px;
+}
+
+.inverted {
+  order: 1;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.pricing-card {
+  width: 100%;
+}
+
+.separator {
+  border: 1px solid red;
+  height: 350px;
+}
+
+.social-btn {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-fb {
+  background: radial-gradient(
+    64.45% 64.45% at 11.23% 15.64%,
+    #e98ad0 0%,
+    #7729ce 100%
+  );
+}
+
+.btn-linkedin {
+  background: radial-gradient(
+    68.53% 68.53% at 11.23% 15.64%,
+    #75d5fe 0%,
+    #139ad3 100%
+  );
+}
+
+.btn-insta {
+  background: radial-gradient(
+    73.03% 73.03% at 13.98% 16.99%,
+    #ff9172 0%,
+    #f21e01 91.15%
+  );
+}
+
+.contact-btn {
+  background: linear-gradient(
+    129.39deg,
+    #ff9172 -8.77%,
+    #e3572d 66.12%,
+    #f21e01 128.16%
+  );
+}
+
+@media (max-width: 1024px) {
+  .inverted {
+    order: 0;
+  }
+
+  .invert-hero-image {
+    order: 1;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 650px;
+    min-width: 300px;
+  }
+}

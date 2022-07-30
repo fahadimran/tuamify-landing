@@ -1,0 +1,9 @@
+export { default as Layout } from "./Layout";
+export { default as Navbar } from "../components/navbar/Navbar";
+export { default as HeroSection } from "../components/hero-section/HeroSection";
+export { default as OurValuesSection } from "../components/our-values-section/OurValuesSection";
+export { default as ProductsSection } from "../components/products-section/ProductsSection";
+export { default as OurPartners } from "../components/our-partners/OurPartners";
+export { default as Banner } from "../components/banner/Banner";
+export { default as PricingSection } from "../components/pricing-section/PricingSection";
+export { default as ContactSection } from "../components/contact-section/ContactSection";
